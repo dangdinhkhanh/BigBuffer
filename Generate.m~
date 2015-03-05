@@ -1,0 +1,11 @@
+function [ list ] = Generate( B,k )
+%GENERATE Summary of this function goes here
+%   Detailed explanation goes here
+% Generate all combinations (c1,...,cB) such that
+% c1+2*c2+....+B*cB<=k in the ascending order
+% when apply, we will remove 2 first elements of list (c1={0,1}, c_i = 0
+% for all i)
+
+
+end
+
