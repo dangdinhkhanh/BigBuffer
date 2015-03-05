@@ -1,0 +1,16 @@
+function [ state ] = value2state( value,B )
+%VALUE2STATE Summary of this function goes here
+%   Detailed explanation goes here
+base = 100;
+state = [];
+% state
+state(1) = floor(value/base^B) ;
+value = value - d*base^B;
+c = zeros(1,B); 
+for i = 1:B
+    c(i) = floor(value/B^(B-i));
+    value = value - c(i)*base^(B-i);
+end
+
+end
+
