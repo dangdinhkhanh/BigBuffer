@@ -8,7 +8,7 @@ function [ index_array ] = Index_Mapping( M )
 % index is assigned for state
 i = 1;
 % the number of drops
-for d=0:(M-1)
+for d=0:(M-2)
     for c1 = 0:(M-d)
         for c2 = 0:floor((M-d-c1)/2)
             if (c1+c2)==0
