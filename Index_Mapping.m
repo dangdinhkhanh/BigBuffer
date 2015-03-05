@@ -13,8 +13,9 @@ index_array = [];
 % the number of drops
 for d = 0:(M-B)
     list = Generate(B,M-d);
+  
     % remove 2 first elements of lists (sum = 0,1)
-    list = list(2:end,:); 
+    list = list(3:end,:); 
     for j = 1:size(list,1)
         index_array(i) = d* base^B;
         for k = 1:B
