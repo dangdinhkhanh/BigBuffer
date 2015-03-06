@@ -1,4 +1,4 @@
-function [ index_array ] = Index_Mapping( M,B )
+function [ index_array ] = Index_Mapping(M,B)
 %INDEX_MAPPING Summary of this function goes here
 %   Detailed explanation goes here
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,7 +1,6 @@
-M = 3;
-N = 4; 
-A = Matrix_A(M,N);
-R = Matrix_R(M,N);
-for i = 1: size(A,1)
-    disp(sum(A(i,:))+sum(R(i,:)));
+M = 4; 
+B = 2;
+a = Index_Mapping(M,B);
+for i = 1: length(a)
+    disp(value2state(a(i),B));
 end
