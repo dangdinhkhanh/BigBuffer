@@ -3,9 +3,9 @@ function [ value ] = state2value( state )
 %   Detailed explanation goes here
 base = 100;
 value = 0;
-B = length(state) -1;
+
 for i = 1:length(state)
-    value = value + state(i)*base^(B+1-i);
+    value = value + state(i)*base^(i-1);
 end
 
 end
